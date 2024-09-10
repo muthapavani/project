@@ -1,0 +1,426 @@
+
+ #home{
+    background-image: url("./tm-astro-bg.jpg ");
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    width:100%;
+   
+} 
+.section {
+            display:flex;
+            justify-content: space-around;
+        
+}
+.navs {
+    display:flex;
+    justify-content: space-around;
+}
+.line{
+    position:absolute;
+    width:140px;
+    height:2px;
+    background-color: white;
+    margin-top: 10px; 
+}
+.line:hover{
+    background-color: green;
+}
+.circle{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    margin-left:50%;
+} 
+.circle:hover{
+    background-color: green;
+}
+li{
+    margin:35px;
+}
+li a{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    margin:30px;
+    margin-left:40px;
+    font-family:system-ui;
+}
+a:hover{
+      color: green;
+    }
+
+.section1{
+    font-family:system-ui;
+    display:flex;
+    font-size:18px;
+    padding:30px;
+    width:40%;
+    margin-top:2%;
+    margin-bottom:4%;
+}
+
+li{
+    list-style:none;
+}
+img{
+    margin-bottom:20px;
+}
+.text{
+    background-color:rgba(0,0,0,0.3);
+    padding:20px;
+    width:55%;
+    margin-right:2%;
+    margin-left:5%;
+    
+}
+.circle2{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:#ffffff;
+    margin-left:70%;
+    display:inline-block;
+}
+.circle3{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    display:inline-block;
+    
+}
+.sline{
+    position:absolute;
+    width:64%;
+    height:2px;
+    background-color: white;
+    margin-top:7px; 
+}
+.hr{
+    margin-left:10%;
+}
+button{
+    text-align: center;
+    border-color: white;
+    padding:10px 15px;
+    margin:20px;
+    margin-bottom:30px;
+}
+
+#gallery{
+    background-image: url("./tm-astro-bg.jpg ");
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    width:100%;
+   
+}
+.images{
+        display: flex;
+        justify-content:center;
+        gap:2%;
+        margin-right:-10%;
+        margin:4% 4%;
+        margin-bottom:5%;
+    }
+    .hr2{
+        margin-left:8%;
+    }
+.circle4{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:#ffffff;
+    display:inline-block;
+}
+
+.circle5{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    display:inline-block;
+    margin-left: 87%;
+    
+}
+.gline{
+    position:absolute;
+    width:80%;
+    height:2px;
+    background-color: white;
+    margin-top:7px; 
+}
+.gslide{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    margin-bottom: 10%;
+}
+.circle6{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    margin-top:30px;
+}
+.circle6:active{
+    background-color: rgb(20, 156, 240);
+}
+.circle6:hover{
+    background-color: rgb(20, 156, 240);
+}
+.circle7{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    margin-top:30px;
+}
+.circle7:hover{
+    background-color:  rgb(20, 156, 240);
+}
+.circle6:active{
+    background-color: rgb(15, 90, 136);
+}
+.circle8{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    margin-top:30px;
+}
+.circle8:hover{
+    background-color: rgb(20, 156, 240);
+}
+.circle6:active{
+    background-color: rgb(20, 156, 240);
+}
+
+#about{
+     background-image: url("./tm-astro-bg.jpg "); 
+    background-size: cover;
+    background-position: center;
+    padding:20px; 
+    width:100%;
+}
+.hr1{
+    margin-left:21%;
+}
+.atext{
+    font-family:system-ui;
+    background-color:rgba(0,0,0,0.3);
+    padding:4%;
+    width:75%;
+    margin-bottom:3%;
+    color:white;
+    margin-left:20%;
+
+}
+ .aline{
+    position:absolute;
+    width:68%;
+    height:2px;
+    background-color: white;
+    margin-top:7px; 
+ }
+
+.bcircle{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:#ffffff;
+    margin-left:86%;
+    display:inline-block;
+}
+.acircle{
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    display:inline-block;
+}
+
+#contact{
+    background-image: url("./tm-astro-bg.jpg ");
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    width:100%;
+}
+.ctext{
+    font-family:system-ui;
+    width:45%;;
+    color:white;
+    margin-left:5%;
+}
+.fm{
+    background-color:rgba(0,0,0,0.0);
+    border-top-color:rgba(0,0,0,0.0);
+    border-left-color:rgba(0,0,0,0.0);
+    border-right-color:rgba(0,0,0,0.0);
+    border-bottom-color:white;
+    width:350px;
+    color:white;
+    margin-top:10px;
+}
+.fm:hover{
+          border-bottom-color: green;
+}
+iframe{
+    width:80%;
+    height:50%;
+}
+form{
+       margin-top:6%;
+       margin-left:10%;
+}
+
+.ccontainer{
+    display: flex;
+    justify-content:center;
+
+}
+@media screen and ( 0px < width ) and ( width < 768px ) { 
+    .navbar{
+        margin-right:5%;
+    }
+     .navs {
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        margin-left:-130%;
+        margin-top:5%;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+     
+      
+    }
+    .imgh{
+        width:75%;
+        height:30%;
+        margin-left:6%;
+    }
+    .text{
+        width:75%;
+        margin-bottom:20px;
+}
+.ccontainer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:20%
+}
+.fm{
+    width:100%;
+}
+.hr{
+    margin-left:7%;
+}
+.sline{
+    width:65%;
+}
+.hr2{
+    margin-left:6%;
+}
+.gline{
+    width:81%;
+
+
+}
+.hr1{
+    margin-left:18%;
+}
+.aline{
+     width:70%
+}
+.button1{
+       width:100px;
+      float:right;
+}
+.ctext{
+    width:100%;
+    padding-right:20%;
+
+}
+iframe{
+     margin-left:-0px;
+    padding-right:10%;
+    width:100%;
+    height:200px;
+}
+form{
+    margin-left:-0px;
+    width:70%;
+
+}
+}
+@media screen and ( 768px < width ) and ( width <1200px ) { 
+ 
+    .navbar{
+        margin-right:5% ;
+    }
+    .navs {
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        margin-left:-130%;
+        margin-top:5%;
+
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+         gap:20px;
+    }
+    .imgh{
+        margin-left:5%;
+        width:35%;
+        height:20%;
+    }
+    .text{
+        width:75%;
+}
+.ccontainer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:20%;
+    gap:20px;
+}
+.fm{
+    width:100%;
+}
+
+.button1{
+       width:100px;
+      float:right;
+}
+.ctext{
+    width:100%;
+    padding-right:20%;
+    margin-left:-0px;
+}
+iframe{
+    padding-right:10%;
+    width:100%;
+    height:200px;
+}
+form{
+    margin-left:-0px;
+    width:70%;
+
+}
+}
